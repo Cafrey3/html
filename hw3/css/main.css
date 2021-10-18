@@ -34,3 +34,7 @@ h1 {
     margin-left: auto;
     width: 15em;
 }
+
+li {
+    list-style-type: none;
+}
