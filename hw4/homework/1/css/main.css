@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    background-color: forestgreen;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    padding: 5px;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+}
+
+.header {
+    background: aqua;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    column-gap: 5px;
+    width: 100%;
+    /*row-gap: 15px;*/
+}
+
+.aside {
+    background: saddlebrown;
+    flex-grow: 1;
+}
+
+
+.content {
+    background: darkgrey;
+    flex-grow: 3;
+}
