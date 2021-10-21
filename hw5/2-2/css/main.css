@@ -1,0 +1,43 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: silver;
+    width: 1000px;
+    flex-direction: column;
+    row-gap: 5px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.width {
+    width: 100%;
+}
+
+.bg {
+    background: orange;
+}
+
+.height {
+    height: 200px;
+}
+
+.flex {
+    display: flex;
+}
+
+.main_widgets {
+    column-gap: 5px;
+}
+
+.main_widgets_item {
+    flex-grow: 1;
+}
+
+.contact {
+    height: 400px;
+}
+

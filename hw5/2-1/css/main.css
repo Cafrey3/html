@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: silver;
+    width: 1000px;
+    flex-direction: column;
+    row-gap: 5px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.height {
+    height: 150px;
+}
+
+.width {
+    width: 100%;
+}
+
+.bg {
+    background: pink;
+}
+
+.flex {
+    display: flex;
+}
+
+.main {
+    column-gap: 5px;
+    height: 500px;
+}
+
+.content {
+    flex-direction: column;
+    row-gap: 5px;
+    flex-grow: 2;
+}
+
+.menu {
+    flex-grow: 1;
+}
+
+.content_item {
+    height: 500px;
+}

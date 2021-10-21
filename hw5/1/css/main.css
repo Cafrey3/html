@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: silver;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.width {
+    width: 100%;
+}
+.bg {
+    background: skyblue;
+}
+
+.height {
+    height: 150px;
+}
+
+.main {
+    display: flex;
+    column-gap: 5px;
+    align-items: stretch;
+}
+
+.content {
+    flex-grow: 2;
+}
+
+.aside {
+    flex-grow: 1;
+}
