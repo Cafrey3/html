@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: silver;
+    width: 1000px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.width {
+    width: 100%;
+}
+
+.height {
+    height: 200px;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    background: green;
+}
+
+.nav {
+    background: gold;
+}
+
+.content {
+    background: skyblue;
+    height: 400px;
+}
+
+.main {
+    background: darkorchid;
+    flex-grow: 2;
+}
+
+.aside {
+    background: indigo;
+    flex-grow: 1;
+}
+
+.footer {
+    background: darkorange;
+}
