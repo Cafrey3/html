@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: silver;
+    width: 1000px;
+    flex-direction: column;
+    row-gap: 5px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.bg {
+    background: lightseagreen;
+}
+
+.flex {
+    display: flex;
+}
+
+.width {
+    width: 100%;
+}
+
+.height {
+    height: 250px;
+}
+
+.fgrow {
+    flex-grow: 1;
+}
+
+.column {
+    column-gap: 5px;
+}
+
+.main {
+    height: 500px;
+}
+
+.images {
+    flex-direction: column;
+    row-gap: 5px;
+    flex-grow: 2;
+}
+
+
+
