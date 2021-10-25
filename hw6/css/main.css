@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.soc_icon {
+    background: darkorange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 5px;
+    padding: 0 50px;
+}
+
+.header {
+    background-color: darkorange;
+    color: #fff;
+}
+
+.header_top {
+    background-color: lightgray;
+    padding: 10px 0 25px;
+}
+
+.header_top_nav {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.header_logo {
+    background-color: orangered;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.nav_item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav_item a {
+    text-decoration: none;
+}
+
+.header_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    row-gap: 20px;
+}
+
+.titile_text {
+    text-align: center;
+}
+
+.header_main button {
+    background-color: orangered;
+    margin-top: 25px;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: orange;
+    transition: .3s;
+    box-shadow: 0 5px 0 orangered;
+}
+
+.main {
+    background-color: lightgray;
+}
+
+.products {
+    padding: 20px;
+}
+
+.products_wrap {
+    padding: 20px 50px;
+    border: 1px solid red;
+    border-radius: 30px;
+}
+
+.products_list {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-around;
+}
+
+.products_image {
+    background-color: orangered;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.products_item {
+    flex-grow: 1;
+}
+
+.products_item p {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.products_title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profiles {
+    background-color: orangered;
+    padding: 30px;
+}
+
+.profiles_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profiles_card {
+    width: 30%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    row-gap: 10px;
+    cursor: pointer;
+    transition: .3s;
+    padding: 10px;
+}
+
+.profiles_card:hover {
+    border-color: orange;
+}
+
+.profiles_photo {
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profiles_name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.info {
+    background-color: #2BB673;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 60px;
+}
+
+.info_title {
+    /*text-transform: uppercase;*/
+
+}
+
+.about {
+    display: flex;
+}
+
+.about_before {
+    width: 50%;
+    background-color: orange;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    row-gap: 20px;
+    color: #ffffff;
+}
+
+.about_before button {
+    background-color: orangered;
+    margin-top: 25px;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.about_after{
+    width: 50%;
+    background-color: orangered;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    row-gap: 20px;
+    color: #ffffff;
+}
+
+.about_after button {
+    background-color: orange;
+    margin-top: 25px;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.footer {
+    background-color: lightgray;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_info {
+    width: 50%;
+    border-bottom: 5px solid orangered;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.footer_links {
+    background-color: orangered;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
