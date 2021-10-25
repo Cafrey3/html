@@ -42,6 +42,34 @@ body a {
     padding: 0 50px;
 }
 
+.fab {
+    font-size: 30px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+    transition: .3s;
+}
+
+.fa-vk:hover {
+    color: #4C75A3;
+    transition: .3s;
+}
+
+.fa-telegram:hover {
+    color: #0088cc;
+    transition: .3s;
+}
+
+.fa-instagram:hover {
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 3s;
+}
+
 .header {
     background-color: darkorange;
     color: #fff;

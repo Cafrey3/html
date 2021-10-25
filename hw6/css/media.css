@@ -1,5 +1,9 @@
 @media screen and (max-width: 375px) {
 
+    .fab {
+        font-size: 20px;
+    }
+
     .header_logo {
         height: 30px;
         width: 75px;
