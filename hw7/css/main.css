@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 50px 165px 0 165px;
+    height: 100vh;
+    background: url("../img/hero image.png") no-repeat center/cover;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.nav__item a {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav__item a:hover {
+    color: lightgray;transition: .1s;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__contact {
+    padding-left: 30px;
+    border-left: #ffffff solid 1px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.header__phone {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 160px;
+}
+
+.header__phone span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: #FF7400;
+    height: 47px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0 19px;
+    border: none;
+}
+
+.header__button:hover {
+    background-color: #ff9011;
+}
+
+.header__button:active {
+    background-color: #d36000;
+}
+
+.header__title {
+    font-family: 'Tinos', serif;
+    color: #D67E35;
+    margin-top: 203px;
+    max-width: 550px;
+}
+
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    margin-left: 24px;
+}
+
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__title p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 12px;
+    margin-bottom: 21px;
+    margin-left: 95px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.header__title p::before, .header__title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #c4c4c4;
+}
+
+.header__main_button:hover {
+    background-color: #ff9011;
+}
+
+.header__main_button:active {
+    background-color: #d36000;
+}
+
+.header__main_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__btn_mobile {
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.nav__btn_mobile div {
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
+}
+
+.about {
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.about__list {
+    position: relative;
+    top: -100px;
+    display: flex;
+    column-gap: 31px;
+    padding: 0 165px;
+}
+
+.about__list_item {
+    width: 349px;
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.about__list_item .img {
+    margin-top: 30px;
+}
+
+.about__list_title {
+    margin-bottom: 20px;
+}
+
+.about__list_item p {
+    color: #656363;
+}
+
+.list__title {
+    color: #2C2C2C;
+}
+
+.list__title2 {
+    color: #BC9060;
+}
+
