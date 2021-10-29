@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.collapse .navbar-nav .nav-link {
+    font-family: 'Open Sans', sans-serif;    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+}
+
+.collapse .navbar-nav .nav-link:hover {
+    color: #FEA500;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.navbar-brand {
+    margin-right: 268px;
+}
+
+.header {
+    background: url("../img/hero image.png") no-repeat center/cover;
+    height: 100vh;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__contact {
+    padding-left: 30px;
+    border-left: #ffffff solid 1px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.header__phone {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 160px;
+}
+
+.header__phone span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: #FF7400;
+    height: 47px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    line-height: 19px;
+    width: 157px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__button:hover {
+    background-color: #ff9011;
+    color: white;
+}
+
+.header__button:active {
+    background-color: #d36000;
+}
