@@ -1,0 +1,54 @@
+@media screen and (max-width: 576px) {
+    .header__phone {
+        display: none;
+    }
+
+    .header__button_main {
+        display: none;
+    }
+
+    .header__contact {
+        padding: 0;
+        border: none;
+    }
+
+    .navbar-brand img {
+        height: 45px;
+        width: 65px;
+    }
+
+    .header__title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__title p {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 0 0 59px 0;
+    }
+
+    .header__title p::before, .header__title p::after {
+        display: none;
+    }
+
+    .about__list {
+        flex-direction: column;
+        row-gap: 14px;
+        padding: 0 44px;
+        margin-bottom: 15px;
+    }
+
+}
