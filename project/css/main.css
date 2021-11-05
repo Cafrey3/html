@@ -827,6 +827,19 @@ h1 {
     margin-bottom: 59px;
 }
 
+.more {
+    position: relative;
+}
+
+.more p {
+    position: absolute;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    bottom: 14px;
+    left: 0;
+}
+
 .more__btn {
     background-color: #FFFFFF;
     border: 2px solid #005BB9;
@@ -1095,7 +1108,78 @@ h1 {
     margin: 50px;
 }
 
+.logo__mobile {
+    display: none;
+}
 
+.connect__mobile {
+    display: none;
+}
+
+.catalog__mobile {
+    display: none;
+}
+
+.form__button_mobile {
+    display: none;
+}
+
+.li__mob {
+    display: none;
+}
+
+.carousel__item_img_mob {
+    display: none;
+}
+
+.category__slider_img_mob {
+    display: none;
+}
+
+.stored_img_mob {
+    display: none;
+}
+
+.product__top_item_main_mob {
+    display: none;
+}
+
+.product__top_mob {
+    display: none;
+}
+
+.footer__top_news h2 {
+    display: none;
+}
+
+.address__mobile {
+    display: none;
+}
+
+.mobile__nav {
+    padding: 13px 15px 6px 15px;
+    font-size: 14px;
+    line-height: 12px;
+    color: #0F2438;
+    text-align: center;
+    display: none;
+    background-color: #FFFFFF;
+    width: 100%;
+    bottom: 0;
+}
+
+.mobile__nav_item {
+    transition: .1s;
+    width: 33%;
+}
+
+.mobile__nav_item:active {
+    background-color: #dedede;
+}
+
+.mobile__nav img {
+    margin-bottom: 5px;
+}
 
 
 

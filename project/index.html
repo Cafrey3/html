@@ -21,6 +21,26 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+
+<div class="mobile__nav dp-flex">
+    <div class="mobile__nav_item home">
+        <img src="img/home-mob.png" alt="home mob">
+        <p>Главная</p>
+    </div>
+    <div class="mobile__nav_item wishlist">
+        <img src="img/heart-mob.png" alt="heart mob">
+        <p>Избранное</p>
+    </div>
+    <div class="mobile__nav_item favorite">
+        <img src="img/cart-mob.png" alt="cart mob">
+        <p>Корзина</p>
+    </div>
+    <div class="mobile__nav_item user__cabinet">
+        <img src="img/user-mob.png" alt="user mob">
+        <p>Профиль</p>
+    </div>
+</div>
+
 <div class="header">
     <div class="header__top">
         <div class="header__top_nav wrapper dp-flex">
@@ -40,6 +60,7 @@
                 </div>
                 <ul>
                     <li>Ваш город: <a href="#">Москва</a></li>
+                    <li class="li__mob">Еще <i class="fas fa-chevron-down"></i></li>
                     <li><a class="header__left_link" href="#">Информация <i class="fas fa-chevron-down"></i></a></li>
                     <li><a class="header__left_link" href="#">Сотрудничество <i class="fas fa-chevron-down"></i></a></li>
                 </ul>
@@ -60,7 +81,8 @@
     </div>
     <div class="header__bot wrapper">
         <div class="header__bot_info dp-flex align-itm-c">
-            <img src="img/logo.png" alt="logo">
+            <img class="logo__desc" src="img/logo.png" alt="logo">
+            <img class="logo__mobile" src="img/logo-mibile.png" alt="logo mobile">
             <div class="work__time dp-flex align-itm-c">
                 <img src="img/clock.png" alt="clock">
                 <div class="work__time_text">
@@ -85,9 +107,16 @@
                 <h2>+7 383 291 92 86</h2>
                 <a href="#">форма обратной связи</a>
             </div>
+
+            <div class="connect__mobile dp-flex fd-col">
+                <h2>+7 383 291 92 86</h2>
+                <a href="#">форма обратной связи</a>
+                <button class="whatsaap__mob"><img src="img/whatsapp.png" alt="whatsapp">Напишите нам в WhatsApp</button>
+            </div>
         </div>
         <div class="header__bot_nav dp-flex">
             <button class="catalog my_btn dp-flex"><i class="fas fa-bars"></i>Каталог</button>
+            <button class="catalog__mobile my_btn dp-flex"><i class="fas fa-bars"></i></button>
             <div class="form">
                 <div class="dropdown dp-flex fd-col">
                     <p>Найденные трансмиссии:</p>
@@ -102,8 +131,9 @@
                         <li>Соленоид - Артикул / 4493934-22</li>
                     </ul>
                 </div>
-                <input type="text" placeholder="Поиск по наименованию или артикулу">
+                <input type="text" placeholder="Поиск по наименованию">
                 <button class="form__button my_btn" type="submit">Найти</button>
+                <button class="form__button_mobile my_btn" type="submit"><i class="fas fa-search"></i></button>
             </div>
             <div class="user dp-flex align-itm-c">
                 <div class="user__item dp-flex align-itm-c">
@@ -147,22 +177,8 @@
                     <div class="carousel__item_img">
                         <img src="img/slider%20img.png" alt="slider img">
                     </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="carousel__item_info dp-flex">
-                    <div class="carousel__item_info">
-                        <h1>Сцепление в сборе</h1>
-                        <a href="#">0AMCLUTCH</a>
-                        <div class="carousel__item_price dp-flex">
-                            <h2>14 499,99 ₽</h2>
-                            <p>18 550,99 ₽ </p>
-                        </div>
-                        <button class="carousel__item_button my_btn"><img src="img/sale%20cart.png" alt=cart">В корзину
-                        </button>
-                    </div>
-                    <div class="carousel__item_img">
-                        <img src="img/slider%20img.png" alt="slider img">
+                    <div class="carousel__item_img_mob">
+                        <img src="img/slider-img-mob.png" alt="slider mob">
                     </div>
                 </div>
             </div>
@@ -180,6 +196,29 @@
                     </div>
                     <div class="carousel__item_img">
                         <img src="img/slider%20img.png" alt="slider img">
+                    </div>
+                    <div class="carousel__item_img_mob">
+                        <img src="img/slider-img-mob.png" alt="slider mob">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel__item_info dp-flex">
+                    <div class="carousel__item_info">
+                        <h1>Сцепление в сборе</h1>
+                        <a href="#">0AMCLUTCH</a>
+                        <div class="carousel__item_price dp-flex">
+                            <h2>14 499,99 ₽</h2>
+                            <p>18 550,99 ₽ </p>
+                        </div>
+                        <button class="carousel__item_button my_btn"><img src="img/sale%20cart.png" alt=cart">В корзину
+                        </button>
+                    </div>
+                    <div class="carousel__item_img">
+                        <img src="img/slider%20img.png" alt="slider img">
+                    </div>
+                    <div class="carousel__item_img_mob">
+                        <img src="img/slider-img-mob.png" alt="slider mob">
                     </div>
                 </div>
             </div>
@@ -252,11 +291,12 @@
                     присалка в масло акпп</p>
                 <button class="category__slider_btn my_btn">Перейти</button>
             </div>
-            <img src="img/oil%20img.png" alt="oil">
+            <img class="category__slider_img" src="img/oil%20img.png" alt="oil">
+            <img class="category__slider_img_mob" src="img/oil-mob.png" alt="oil mob">
         </div>
 
     </div>
-    <div class="category__slider">
+    <div class="category__slider slider__mob">
         <div class="category__slider_item dp-flex">
             <div class="category__slider_text middle_slider">
                 <h3>Фильтры</h3>
@@ -267,7 +307,7 @@
             <img class="middle_img" src="img/filter%20img.png" alt="filter">
         </div>
     </div>
-    <div class="category__slider">
+    <div class="category__slider slider__mob">
         <div class="category__slider_item dp-flex">
             <div class="category__slider_text right_slider">
                 <h3>Радиаторы</h3>
@@ -296,6 +336,7 @@
     <div class="product__top dp-flex">
         <div class="product__top_item ">
             <img class="product__top_item_main" src="img/sleeve.png" alt="sleeve">
+            <img class="product__top_item_main_mob" src="img/sleeve-mob.png" alt="sleeve img mob">
             <div class="product__top_item_txt dp-flex">
                 <div class="product__top_item_img">
                     <img src="img/Star%20.png" alt="star">
@@ -314,6 +355,7 @@
         <div class="product__top_item stored">
             <div class="for_sale">-40%</div>
             <img class="stored__img" src="img/discs.png" alt="discs">
+            <img class="stored_img_mob" src="img/discs-mob.png" alt="discs mob">
             <div class="product__top_item_txt dp-flex">
                 <div class="product__top_item_img">
                     <img src="img/Star%20.png" alt="star">
@@ -333,7 +375,7 @@
                 </div>
             </div>
         </div>
-        <div class="product__top_item">
+        <div class="product__top_item product__item_mob">
             <img class="product__top_item_main" src="img/sleeve.png" alt="sleeve">
             <div class="product__top_item_txt dp-flex">
                 <div class="product__top_item_img">
@@ -350,7 +392,7 @@
                 <button class="stats product_top_nav"><img src="img/statspng.png" alt="statistic"></button>
             </div>
         </div>
-        <div class="product__top_item">
+        <div class="product__top_item product__item_mob">
             <img class="product__top_item_main" src="img/sleeve2.png" alt="sleeve">
             <div class="product__top_item_txt dp-flex">
                 <div class="product__top_item_img">
@@ -371,6 +413,7 @@
     <div class="product__top_second dp-flex">
         <div class="product__top_item ">
             <img class="product__top_item_main" src="img/sleeve.png" alt="sleeve">
+            <img class="product__top_item_main_mob" src="img/sleeve-mob.png" alt="sleeve img mob">
             <div class="product__top_item_txt dp-flex">
                 <div class="product__top_item_img">
                     <img src="img/Star%20.png" alt="star">
@@ -389,6 +432,7 @@
         <div class="product__top_item stored">
             <div class="for_sale">-40%</div>
             <img class="stored__img" src="img/discs.png" alt="discs">
+            <img class="stored_img_mob" src="img/discs-mob.png" alt="discs mob">
             <div class="product__top_item_txt dp-flex">
                 <div class="product__top_item_img">
                     <img src="img/Star%20.png" alt="star">
@@ -408,7 +452,7 @@
                 </div>
             </div>
         </div>
-        <div class="product__top_item">
+        <div class="product__top_item product__item_mob">
             <img class="product__top_item_main" src="img/sleeve.png" alt="sleeve">
             <div class="product__top_item_txt dp-flex">
                 <div class="product__top_item_img">
@@ -425,7 +469,84 @@
                 <button class="stats product_top_nav"><img src="img/statspng.png" alt="statistic"></button>
             </div>
         </div>
-        <div class="product__top_item">
+        <div class="product__top_item product__item_mob">
+            <img class="product__top_item_main" src="img/sleeve2.png" alt="sleeve">
+            <div class="product__top_item_txt dp-flex">
+                <div class="product__top_item_img">
+                    <img src="img/Star%20.png" alt="star">
+                </div>
+                <p>4.5</p>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h2>Intermediate accumelator sleeve</h2>
+            <p class="product__top_item_price">ЦЕНА <a href="#">по запросу</a></p>
+            <div class="product__top_item_btn dp-flex">
+                <button class="product__item_btn dp-flex my_btn"><img src="img/sale%20cart.png" alt="cart">В корзину</button>
+                <button class="wishlist product_top_nav"><img src="img/whishlist.png" alt="whishlist"></button>
+                <button class="stats product_top_nav"><img src="img/statspng.png" alt="statistic"></button>
+            </div>
+        </div>
+    </div>
+    <div class="product__top_mob dp-flex">
+        <div class="product__top_item ">
+            <img class="product__top_item_main" src="img/sleeve.png" alt="sleeve">
+            <img class="product__top_item_main_mob" src="img/sleeve-mob.png" alt="sleeve img mob">
+            <div class="product__top_item_txt dp-flex">
+                <div class="product__top_item_img">
+                    <img src="img/Star%20.png" alt="star">
+                </div>
+                <p>4.5</p>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h2>Intermediate accumelator sleeve</h2>
+            <p class="product__top_item_price">ЦЕНА <a href="#">по запросу</a></p>
+            <div class="product__top_item_btn dp-flex">
+                <button class="product__item_btn dp-flex my_btn"><img src="img/sale%20cart.png" alt="cart">В корзину</button>
+                <button class="wishlist product_top_nav"><img src="img/whishlist.png" alt="whishlist"></button>
+                <button class="stats product_top_nav"><img src="img/statspng.png" alt="statistic"></button>
+            </div>
+        </div>
+        <div class="product__top_item stored">
+            <div class="for_sale">-40%</div>
+            <img class="stored__img" src="img/discs.png" alt="discs">
+            <img class="stored_img_mob" src="img/discs-mob.png" alt="discs mob">
+            <div class="product__top_item_txt dp-flex">
+                <div class="product__top_item_img">
+                    <img src="img/Star%20.png" alt="star">
+                </div>
+                <p>4.5</p>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h2 class="stored__title">Комплект фрикционных дисков</h2>
+            <div class="product__top_item_btn_nav dp-flex fd-col">
+                <div class="product__top_item_price_stored">
+                    <p>4 430₽ <span>5 430₽</span></p>
+                </div>
+                <div class="product__top_item_btn stored__btn dp-flex">
+                    <button class="product__item_btn dp-flex my_btn"><img src="img/sale%20cart.png" alt="cart">В корзину</button>
+                    <button class="wishlist product_top_nav"><img src="img/whishlist.png" alt="whishlist"></button>
+                    <button class="stats product_top_nav"><img src="img/statspng.png" alt="statistic"></button>
+                </div>
+            </div>
+        </div>
+        <div class="product__top_item product__item_mob">
+            <img class="product__top_item_main" src="img/sleeve.png" alt="sleeve">
+            <div class="product__top_item_txt dp-flex">
+                <div class="product__top_item_img">
+                    <img src="img/Star%20.png" alt="star">
+                </div>
+                <p>4.5</p>
+                <a href="#">10 отзывов</a>
+            </div>
+            <h2>Intermediate accumelator sleeve</h2>
+            <p class="product__top_item_price">ЦЕНА <a href="#">по запросу</a></p>
+            <div class="product__top_item_btn dp-flex">
+                <button class="product__item_btn dp-flex my_btn"><img src="img/sale%20cart.png" alt="cart">В корзину</button>
+                <button class="wishlist product_top_nav"><img src="img/whishlist.png" alt="whishlist"></button>
+                <button class="stats product_top_nav"><img src="img/statspng.png" alt="statistic"></button>
+            </div>
+        </div>
+        <div class="product__top_item product__item_mob">
             <img class="product__top_item_main" src="img/sleeve2.png" alt="sleeve">
             <div class="product__top_item_txt dp-flex">
                 <div class="product__top_item_img">
@@ -445,6 +566,7 @@
     </div>
     <div class="more dp-flex align-itm-c justify-content-center">
         <button class="more__btn">Показать еще</button>
+        <p>НОВОСТИ</p>
     </div>
 </div>
 
@@ -453,6 +575,7 @@
 <div class="footer dp-flex fd-col">
     <div class="footer__top">
         <div class="footer__top_news dp-flex wrapper">
+            <h2>НОВОСТИ</h2>
             <div class="footer__top_news_item newest">
                 <div class="footer__day">
                     3 ноября
@@ -561,6 +684,11 @@
                         </div>
                     </div>
                     <div class="address">
+                        <h2>АДРЕС</h2>
+                        <p>г. Новосибирск,
+                            ул. Планировочная, 5, офис 105</p>
+                    </div>
+                    <div class="address__mobile">
                         <h2>АДРЕС</h2>
                         <p>г. Новосибирск,
                             ул. Планировочная, 5, офис 105</p>
